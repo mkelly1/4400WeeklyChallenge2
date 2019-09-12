@@ -15,20 +15,26 @@ public class WeeklyChallenge2 {
         String[] queso = {""};
         String[] sour_cream = {""};
 
-        fixins.put("meat", meatIngr );
-        fixins.put("rice", riceIngr);
-        fixins.put("beans", beansIngr);
-        fixins.put("salsa", salsaIngr);
-        fixins.put("veggies", veggiesIngr);
-        fixins.put("cheese", cheese);
-        fixins.put("quac",guac);
-        fixins.put("queso",queso);
-        fixins.put("sour cream",sour_cream);
+        fixins.put("1", meatIngr );
+        fixins.put("2", riceIngr);
+        fixins.put("3", beansIngr);
+        fixins.put("4", salsaIngr);
+        fixins.put("5", veggiesIngr);
+        fixins.put("6", cheese);
+        fixins.put("7",guac);
+        fixins.put("8",queso);
+        fixins.put("9",sour_cream);
 
-        for (i=0;i<25=i++){
+        for (int i=0;i<25=i++){
+
+            String burrito = "Burito "+i;
             int extras = rand.nextInt(4)+ 5;
-            for(j=0;j < extras; j++){
 
+            for(int j=0;j < extras; j++){
+                //create an array of 'extras' random numbers
+                int extra = rand.nextInt(9);
+
+                burrito = burrito + ",";
             }
 
 
