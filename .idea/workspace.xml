@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e655c040-a30b-4e3c-b560-1dca0b5c45e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rm440WeeklyChallenge2/WeeklyChallenge2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rm440WeeklyChallenge2/WeeklyChallenge2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WeeklyChallenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeeklyChallenge2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WeeklyChallenge2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+            <state relative-caret-position="8">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -64,8 +63,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="55" />
+    <option name="x" value="182" />
+    <option name="y" value="92" />
     <option name="width" value="1650" />
     <option name="height" value="998" />
   </component>
@@ -135,15 +134,15 @@
       <option name="presentableId" value="Default" />
       <updated>1568317708553</updated>
       <workItem from="1568317713066" duration="4874000" />
-      <workItem from="1568380750232" duration="13496000" />
+      <workItem from="1568380750232" duration="14326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18370000" />
+    <option name="totallyTimeSpent" value="19200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="102" width="1650" height="998" extended-state="0" />
+    <frame x="182" y="92" width="1650" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14720812" />
@@ -156,7 +155,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32896304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44815257" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9022646" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,8 +182,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/WeeklyChallenge2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="55" column="56" lean-forward="true" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        <state relative-caret-position="8">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>

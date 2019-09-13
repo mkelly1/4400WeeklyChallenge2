@@ -17,7 +17,7 @@ public class WeeklyChallenge2 {
 
         for (int i=0;i<25;i++) {
             String burrito = "Burrito " + (i+1) + ":";              //String for burrito
-            int numOfFixins = rand.nextInt(4) + 6;          // choose random num of ingredients
+            int numOfFixins = rand.nextInt(5) + 5;          // choose random num of ingredients
             double price = 3 + (.5 * numOfFixins);
             ArrayList<Integer> fixinsSet = new ArrayList<>();   //array to store random categories
             for (int j = 0; j < numOfFixins; j++)
