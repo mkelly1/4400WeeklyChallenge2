@@ -14,6 +14,7 @@ public class WeeklyChallenge2 {
         fixins.put("queso","queso");                                                    //7
         fixins.put("sour_cream","sour_cream");                                          //8
         String[] categories = {"meat","rice","salsa","beans","veggies","cheese","guac","queso","sour_cream"};
+        int priceAdjustment = 0;
 
         for (int i=0;i<25;i++) {
             String burrito = "Burrito " + (i+1) + ":";              //String for burrito
@@ -38,6 +39,7 @@ public class WeeklyChallenge2 {
                 }
                 else if (ingredient.equals("none")){
                     burrito = burrito + ", " + "no " + category;
+                    priceAdjustment ++;
                 }
                 else if (category.equals("beans") && !(ingredient.equals("all"))){
                     burrito = burrito + ", " + ingredients[randNum] + " " +category;
@@ -52,6 +54,8 @@ public class WeeklyChallenge2 {
                     burrito = burrito + ", " + ingredients[randNum];
                 }
             }
+            price = price - (0.5 * priceAdjustment);
+            priceAdjustment = 0;
             System.out.printf(burrito + "\t $%.2f", price);
             System.out.println("\n");
         }
